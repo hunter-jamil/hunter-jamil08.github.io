@@ -1,0 +1,16 @@
+.translate{height: 400px; width: 400px; background-color: red; color: white; text-align: center; margin-bottom: 200px; transition:2s; transition-timing-function:ease; box-shadow: -10px 10px 5px gray;}
+.translate:hover{
+    transform: translateX(500px);
+}
+.skew{height: 400px; width: 400px; background-color: blue; color: white; text-align: center; margin-bottom: 200px;transition:2s;}
+.skew:hover{
+    transform: skewY(-45deg);
+}
+.rotate{height: 400px; width: 400px; background-color: yellow; color: black; text-align: center; margin-bottom: 200px;transition:2s;}
+.rotate:hover{
+    transform: rotate(180deg);
+}
+.scale{height: 400px; width: 400px; background-color: green; color: white; text-align: center; margin-bottom: 200px;transition:2s;}
+.scale:hover{
+    transform: scale(1.5); 
+}
